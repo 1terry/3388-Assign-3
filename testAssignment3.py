@@ -94,7 +94,7 @@ topCircle.setT(R1*topCircle.getT())
 #Rotate the torus with the same rotation used for the cylinder
 torus.setT(R1*torus.getT())
 
-#Open a graphics window, set camera viewing system, and create light source
+#Open a graphics window, set camera viewing system  , and create light source
 window = graphicsWindow(WIDTH,HEIGHT)
 camera = cameraMatrix(window,P,E,G,NP,FP,THETA) #Set camera viewing system
 light = lightSource(L,C,I)
